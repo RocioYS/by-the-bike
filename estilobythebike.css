@@ -1,0 +1,86 @@
+
+
+
+body{
+    background-color: #00AEEF;
+}
+
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    
+
+}
+
+#header{
+    border: 50px 50px;
+    padding: 50px 50px;
+    margin: 50px 50px;
+    position: absolute;
+    float: center;
+    
+
+}
+
+#brand{
+
+
+}
+
+#nav{
+
+}
+
+#slider-ciudad{
+
+}
+
+#main{
+
+}
+
+#lista-bicicletas{
+
+}
+
+#contenedor-rutas{
+
+}
+
+.row-rutas{
+
+}
+
+.col-ruta{
+
+}
+
+#footer{
+
+}
+
+.contenedor-menu{
+
+}
+
+.menu{
+
+}
+
+.brand{
+
+}
+
+.left{
+
+}
+
+.right{
+
+}
+
+
+
+
