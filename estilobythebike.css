@@ -1,40 +1,112 @@
 
-
-
-body{
-    background-color: #00AEEF;
-}
-
 @font-face{
     font-family: 'Montserrat', sans-serif;
 }
 
 h1{
-    
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    font-size:3rem;
+    margin: 0px;
+
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0px 0px 20px 0px;
+ 
 
 }
 
 #header{
-    border: 50px 50px;
-    padding: 50px 50px;
-    margin: 50px 50px;
-    position: absolute;
-    float: center;
-    
+   overflow: auto;
+   background-color: #00AEEF;
+
 
 }
 
 #brand{
+    border: 50px 50px;
+    padding: 50px 50px 50px 50px;
+    margin: 50px 50px;
+    text-align: center;
+}
 
+#brand img{
+    width: 15rem;
+    height: auto;
+}
+
+
+#nav{}
+
+.lista ul li{
+    padding: 50px 20px 20px 20px ;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    float: right;
 
 }
 
-#nav{
 
+#logo{
+    margin: 20px 0px 20px 50px;
+    float: left;
+    
+
+}
+#logo img{
+    width: 3rem;
+    margin: 1rem;
+
+}
+
+#logo p{
+    font-family: 'Montserrat', sans-serif, bold;
+    color: white;
+    margin: 0px;
 }
 
 #slider-ciudad{
+    font-family: 'Montserrat 400', sans-serif;
+    text-align: center;
+}
 
+.ciudad{
+    font-family: 'Montserrat 400', sans-serif;
+    
+}
+
+#slider-ciudad p{
+    font-family: 'Montserrat 400', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    
+
+}
+
+.far{
+    width: 20px;   
+}
+
+
+input{
+    font-family: 'Montserrat 400', sans-serif;
+    background-color:#D7263D;
+    color: white;
+    border: none;
+    padding: 3px;
+}
+
+#nav input{
+    font-family: 'Montserrat 400', sans-serif;
+    background-color:#D7263D;
+    color: white;
+    border: none;
+    padding: 3px;
 }
 
 #main{
@@ -80,7 +152,3 @@ h1{
 .right{
 
 }
-
-
-
-
