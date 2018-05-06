@@ -83,6 +83,7 @@ p{
 
 }
 
+
 /*
 #img-banner {
     background-image: url(img/images/alquiler-bicicletas-malaga.jpg);
@@ -172,28 +173,16 @@ input{
     text-align: center;
 }
 
-.contenedor-tabla{
-
-    display: table;
-    
-    }
-    
-    .contenedor-fila{
-    
-    display: table-row;
-    
-    }
-    
-    .contenedor-columna{
-    
-    display: table-cell;
-    
-    }
-
 #lista-bicicletas{
-
+    
 }
 
+#lista-bicicletas table{
+    align-content: center;
+}
+#lista-bicicletas table th{
+    background-color: #D7263D;
+}
 #contenedor-rutas{
 
 }
