@@ -3,6 +3,12 @@
     font-family: 'Montserrat 400', sans-serif;
 }
 
+body{
+    padding: 0px;
+    margin: 0px;
+
+}
+
 h1{
     font-family: 'Montserrat', sans-serif, bold;
     color: white;
@@ -50,7 +56,7 @@ p{
 
 }
 
-.txt-bici-mlg{
+/*.txt-bici-mlg{
     color: #02182B;
     text-align: center;
     margin: 10rem;
@@ -81,27 +87,38 @@ p{
     min-width: 5%;
     opacity: 0.7;
 
-}
+}*/
 
 
-/*
+
 #img-banner {
     background-image: url(img/images/alquiler-bicicletas-malaga.jpg);
     background-size: cover;
-    height: 50vh;
-    opacity: 0.7;
+    height: 60vh;
+    position: relative;
     background-position: center;
     
 }
 
+#capa-banner{
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5)
+}
+
 #img-banner p{
    text-align: center;
-   padding-top: 10%;
-   margin-top: 0px;
+   padding-top: 20vh;
+   margin-top: 0vh;
    font-size: 4rem;
-   color: #ffffff;
-   z-index: 0;
-}*/
+   color: #000080;
+   opacity: 1;
+   position: relative;
+
+}
 
 
 
@@ -164,36 +181,110 @@ input{
 }
 
 #main{
+   
 
 }
 
 #main h2{
     font-family: 'Montserrat 400', sans-serif;
     color: #00AEEF;
-    text-align: center;
+    text-align: center; 
+    margin: 10vh 0vh;
 }
 
 #lista-bicicletas{
-    
+    color: #02182B;
+    margin: 0vh 0vh 20vh 0vh;
+      
 }
 
 #lista-bicicletas table{
-    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2vh;
+    font-family: 'Montserrat 400', sans-serif;
+    border-collapse: collapse;
 }
 #lista-bicicletas table th{
     background-color: #D7263D;
+    padding: 2vh 8vh 2vh 8vh;
+    color: #ffffff;
+    
 }
-#contenedor-rutas{
 
+.zebra tbody tr:nth-child(3n+2) {
+    background-color: #c0c0c0;
+
+  }
+
+#lista-bicicletas table tr{
+    padding: 5vh 8vh 5vh 8vh;
+}
+#lista-bicicletas table td{
+    padding: 4vh 4vh 4vh 4vh;
+}
+
+.quedan-pocas{
+    color: #D7263D;
+    font-weight: bold;
+}
+
+
+#contenedor-rutas{
+    background-color: #c0c0c0;
+    height: 100vh;
+   
+}
+
+#contenedor-rutas h3{
+    color: #02182B;
+    font-family: 'Montserrat 400', sans-serif;
+    text-align: center;
+    padding: 5vh;
 }
 
 .row-rutas{
+    color: #02182B;
+    font-family: 'Montserrat 400', sans-serif;
+    text-align: center;
+    
 
+    width: 1000px;
+    margin: 0 auto;
 }
 
 .col-ruta{
-
+    height: 50vh;
+    width: 33%;
+    float: left;
 }
+
+.col-ruta img{
+    width: 100%;
+}
+
+.col-ruta p{
+    display: inline-flex; 
+    width: 100%;
+    background-color: #02182B;
+    padding: 15px 0px;
+    margin: 0px;
+    
+}
+
+
+.col-ruta i{
+    width: 100%;
+}
+
+.col-ruta input{
+    padding: 2vh 3vh;
+}
+
+
+
+
+
 
 #footer{
 

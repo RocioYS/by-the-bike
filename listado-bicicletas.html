@@ -37,21 +37,17 @@
 			</div>
 	</div>
 
-		<div class="img-banner">
+		<!--<div class="img-banner">
 			<p class="txt-bici-mlg"><b>Tu bicicleta</b> en Málaga</p>
 			<img class="crop" src="img/images/alquiler-bicicletas-malaga.jpg">
 									
-		</div> 
+		</div> -->
 	
-	<!--	<div id="img-banner">
+		<div id="img-banner">
+			<div id="capa-banner"></div>
 				<p>Tu bicicleta en Málaga</p>
-				
-		</div>-->
+		</div>
 	
-	
-		
-
-
 
 	<!-- contenedor principal -->
 	<div id="main">
@@ -61,41 +57,41 @@
 
 		<div id="lista-bicicletas">
 
-				<table>
+				<table class="zebra">
 					<tr>
 						<th>Distancia</th>
 						<th>Tiempo</th>
 						<th>Dirección</th>
 						<th>Disponibilidad</th>
-						
+						<th></th>
 					</tr>
 						<td>212 m</td>
 						<td>4 min a pie</td>
-						<td>Armengual de la Mota, 83</td>
+						<td><i class="fas fa-map-marker-alt"></i> Armengual de la Mota, 83</td>
 						<td>10 bicicletas disponibles</td>
-						<td>Icono reserva</td>
+						<td><i class="fas fa-ticket-alt"></i> Reservar</td>
 					<tr>
 					<tr>
 						<td>105 m</td>
 						<td>2 min a pie</td>
-						<td>Hilera, 20</td>
+						<td><i class="fas fa-map-marker-alt"></i> Hilera, 20</td>
 						<td>8 bicicletas disponibles</td>
-						<td>Icono reserva</td>
+						<td><i class="fas fa-ticket-alt"></i> Reservar</td>
 					</tr>
 					<tr>
-							<td>452 m</td>
-							<td>15 min a pie</td>
-							<td>Compositor Lehmberg Ruiz, 13</td>
-							<td>¡Sólo quedan 2!</td>
-							<td>Icono reserva</td>
-						</tr>
-						<tr>
-								<td>370 m</td>
-								<td>5 min a pie</td>
-								<td>Alameda Central, 120</td>
-								<td>5 bicicletas disponibles</td>
-								<td>Icono reserva</td>
-							</tr>
+						<td>452 m</td>
+						<td>15 min a pie</td>
+						<td><i class="fas fa-map-marker-alt"></i> Compositor Lehmberg Ruiz, 13</td>
+						<td class="quedan-pocas">¡Sólo quedan 2!</td>
+						<td><i class="fas fa-ticket-alt"></i> Reservar</td>
+					</tr>
+					<tr>
+						<td>370 m</td>
+						<td>5 min a pie</td>
+						<td><i class="fas fa-map-marker-alt"></i> Alameda Central, 120</td>
+						<td>5 bicicletas disponibles</td>
+						<td><i class="fas fa-ticket-alt"></i> Reservar</td>
+					</tr>
 										
 				</table>
 			<!-- Tabla con la lista de estaciones cerca -->
@@ -107,12 +103,31 @@
 	
 	<!-- contenedor de rutas -->
 	<div id="contenedor-rutas">
+		<h3>Rutas en bicicletas por Málaga</h3>
 		
 		<div class="row-rutas">
+
 			<!-- ruta 1 -->
-			<div class="col-ruta">
-				
+				<div class="col-ruta">
+					
+						<img src="/img/images/ruta-montes-de-malaga.jpg">
+							
+						<div>
+							<!--<p><i class="fas fa-street-view"> 40 Km</i></p>
+							<p><i class="far fa-clock"> 4 horas</i></p>
+							<p><i class="fas fa-star" >Difícil</i></p>-->
+
+							<p><i class="fas fa-street-view"> 40 Km</i>
+							<i class="far fa-clock"> 4 horas</i>
+							<i class="fas fa-star" >Difícil</i></p>
+						</div>
+
+						<h4>Ruta por los Montes de Málaga</h4>
+						<input type="submit" value="Quiero hacerla">
+							
 			</div>
+
+
 			<!-- ruta 2 -->
 			<div class="col-ruta">
 				
