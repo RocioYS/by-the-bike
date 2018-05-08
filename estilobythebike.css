@@ -1,34 +1,29 @@
 
-@font-face{
-    font-family: 'Montserrat 400', sans-serif;
+*{
+    box-sizing: border-box;
 }
+
 
 body{
+    font-family: 'Montserrat', sans-serif;
     padding: 0px;
     margin: 0px;
-
 }
 
-h1{
-    font-family: 'Montserrat', sans-serif, bold;
+/*h1{
     color: white;
     font-size:3rem;
     margin: 0px;
-
 }
 
 p{
-    font-family: 'Montserrat', sans-serif;
     color: white;
     padding: 0px 0px 20px 0px;
- 
-
-}
+}*/
 
 #header{
    overflow: auto;
    background-color: #00AEEF;
-
 
 }
 
@@ -45,51 +40,45 @@ p{
 }
 
 
-#nav{}
+#nav{
+    background-color: #00AEEF;
+    padding: 10px;
+}
 
-.lista ul li{
-    padding: 50px 20px 20px 20px ;
+#nav .logo img{ 
+    display: block;
+	width: 75px;
+    margin-left: 25px;
+	margin-bottom: 5px;
+    
+}
+
+#nav .logo p{ 
+    color: white;ç
+    margin-left: 25px;
+    
+}
+
+#nav .lista ul{
+    margin: 0;
+	padding:0;
+	list-style: none;
+	float: right;
+
+}
+
+#nav .lista ul li{
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    float: right;
+    padding: 22px 12px;
 
 }
 
-/*.txt-bici-mlg{
-    color: #02182B;
-    text-align: center;
-    margin: 10rem;
-    padding: 3rem;
-    font-size: 4rem;
-    z-index: 1;
-    position: relative;
+#nav .lista ul li a{
+    color:#FFF;
+	font-weight: 400;
+	text-decoration: none;
+
 }
-
-.img-banner {
-    width: auto;
-    height: 450px;
-    overflow: hidden;
-    margin: 0px;
-    position: relative;
-}
-
-
-.crop{
-    position:absolute;
-    left: -100%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
-    margin: auto;
-    width: 120%;
-    min-height: 5%;
-    min-width: 5%;
-    opacity: 0.7;
-
-}*/
-
-
 
 #img-banner {
     background-image: url(img/images/alquiler-bicicletas-malaga.jpg);
@@ -117,46 +106,35 @@ p{
    color: #000080;
    opacity: 1;
    position: relative;
-
 }
 
-
-
-#logo{
+#logo{ 
     margin: 20px 0px 20px 50px;
     float: left;
-    
-
 }
+
 #logo img{
     width: 3rem;
     margin: 1rem;
-
 }
 
 #logo p{
-    font-family: 'Montserrat', sans-serif, bold;
     color: white;
     margin: 0px;
 }
 
 #slider-ciudad{
-    font-family: 'Montserrat 400', sans-serif;
     text-align: center;
 }
 
 .ciudad{
-    font-family: 'Montserrat 400', sans-serif;
     
 }
 
 #slider-ciudad p{
-    font-family: 'Montserrat 400', sans-serif;
     font-size: 1.2rem;
     text-align: center;
     color: white;
-    
-
 }
 
 .far{
@@ -165,7 +143,6 @@ p{
 
 
 input{
-    font-family: 'Montserrat 400', sans-serif;
     background-color:#D7263D;
     color: white;
     border: none;
@@ -173,7 +150,6 @@ input{
 }
 
 #nav input{
-    font-family: 'Montserrat 400', sans-serif;
     background-color:#D7263D;
     color: white;
     border: none;
@@ -186,7 +162,6 @@ input{
 }
 
 #main h2{
-    font-family: 'Montserrat 400', sans-serif;
     color: #00AEEF;
     text-align: center; 
     margin: 10vh 0vh;
@@ -194,15 +169,13 @@ input{
 
 #lista-bicicletas{
     color: #02182B;
-    margin: 0vh 0vh 20vh 0vh;
-      
+    margin: 0vh 0vh 20vh 0vh;  
 }
 
 #lista-bicicletas table{
     margin: 0 auto;
     text-align: left;
     padding: 2vh;
-    font-family: 'Montserrat 400', sans-serif;
     border-collapse: collapse;
 }
 #lista-bicicletas table th{
@@ -232,31 +205,18 @@ input{
 
 #contenedor-rutas{
     background-color: #c0c0c0;
-    height: 100vh;
-   
 }
 
 #contenedor-rutas h3{
     color: #02182B;
-    font-family: 'Montserrat 400', sans-serif;
     text-align: center;
-    padding: 5vh;
-    position: absolute;
+    padding-top: 50px; 
 }
 
 .row-rutas{
-    /*color: #02182B;
-    font-family: 'Montserrat 400', sans-serif;
-    text-align: center;
-    width: 1080px;
-    margin: 0 auto;
-    display: inline-flex;
-    overflow: auto;
-    clear: both;*/
-    width: 1080px;
 	margin: 0 auto;
 	clear: both;
-	padding:60px 10px;
+	padding: 60px 60px;
     overflow: auto;
     display: inline-flex;
     text-align: center;
@@ -264,13 +224,6 @@ input{
 }
 
 .col-ruta{
-    /*height: 80vh;
-    width: 33%;
-    /*float: center;*/
-    /*text-align: center;*/
-   /* background-color: #FFF;
-    margin-left: 1.05%;
-    margin-right: 1.05%;*/
     width: 31%;
 	float:left;
 	background-color: #FFF;
