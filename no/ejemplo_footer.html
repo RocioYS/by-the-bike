@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de footer</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		/* Con esto te aseguras border-box en todo el proyecto
+
+		*{
+			box-sizing: border-box;
+		}
+
+		*/
+
+		body{
+			padding: 0px;
+    		margin: 0px;
+		}
+
+		#footer{
+			background-color: #333;
+			overflow: auto; /*El contenedor adquiere el height de los elementos que están flotando. Así hacemos que el height se muestre*/
+		}
+		
+		/*Ojo a la jerarquía de los id y las clases */
+		#footer .menu{
+			box-sizing: border-box; /*Con esta propiedad decimos que el padding está incluido en el 25%*. Luego hay que jugar con el width, padding y margin para que todo al final sume 25%*/
+			width: 23%; /*Antes 25% lo que va a ocupar en el footer.*/
+			float: left; /*Se recomienda usar los float*/
+			padding: 20px 1%; /*Cuando posteriomente se insertan más menús con este padding, se está sumando todo, por eso empuja uno de los menús hacia abajo.*/
+			margin: 0 1%;
+			
+		}
+
+		#footer .menu h4{
+			font-size: 1.4rem;
+			font-weight: 700;
+			color: #ccc;
+
+		}
+
+		#footer .menu ul{
+			margin: 0;
+			padding: 0;
+		}
+
+		#footer .menu ul li{
+			padding-bottom: 12px;
+			list-style: none;
+		}
+
+		#footer .menu ul li a{
+			color: #999;
+			text-decoration: none;
+		}
+
+		#footer-final{
+			background-color: #212020;
+			overflow: auto;
+			padding: 20px 30px;
+		} 
+
+		#footer-final .logo{
+			float: left;
+
+		}
+
+		#footer-final .social{
+			float: right;
+		}
+
+		#footer-final .social ul{
+			margin: 0;
+			padding: 0;
+
+		}
+
+		#footer-final .social ul li{
+			display: inline-block;
+		}
+
+		#footer-final .social ul li a{
+			color: #999;
+			text-decoration: none;
+		}
+
+
+		#footer-final .logo img{
+			width: 100px;
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 20px;
+		}
+
+		#footer-final .logo p{
+			display: inline-block;
+			color: #999;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="footer">
+
+		<div class="menu">
+			<h4>ByTheBike</h4>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Rutas</a></li>
+				<li><a href="#">Ayuda</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+			
+		</div>
+
+		<div class="menu">
+			<h4>ByTheBike</h4>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Rutas</a></li>
+				<li><a href="#">Ayuda</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</div>
+		
+		<div class="menu">
+			<h4>ByTheBike</h4>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Rutas</a></li>
+				<li><a href="#">Ayuda</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</div>
+
+		<div class="menu">
+			<h4>ByTheBike</h4>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Rutas</a></li>
+				<li><a href="#">Ayuda</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</div>
+
+		<div id="footer-final"> <!--Estructura de la última parte del footer-->
+			<div class="logo">
+				<img src="img/images/logo-negativo.bythebike.png" alt="">
+				<p>ByTheBike | Alquiler de bicicletas en tu ciudad</p>				
+			</div>
+
+			<div class="social">
+				<ul>
+					<li><a href="">Facebook</a></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">Instagram</a></li>
+					<li><a href="">LinkedIn</a></li>
+				</ul>
+
+			</div>
+			
+		</div>
+				
+		
+	
+</body>
+</html>
